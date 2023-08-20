@@ -43,5 +43,6 @@ elif sys.argv[1] == "-dv" and num_sys_args == 4:
     decay_visualization(n_0, half_life)
 else:
     print("""USAGE: %s -df n_0 half_life h
-        OR: %s -mlc dose times_per_day half_life duration""" % (sys.argv[0]))
+        OR: %s -mlc dose times_per_day half_life duration
+        OR: %s -dv dn_0 half_life""" % (sys.argv[0]))
     
